@@ -1,7 +1,7 @@
 {
-  "name": "ajs",
+  "name": "4.1",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Build status](https://ci.appveyor.com/api/projects/status/cqnd8x3jsj0wxxq7?svg=true)](https://ci.appveyor.com/project/nugmanov87/ajs-homeworks-syntactic-constructions-1)",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
@@ -37,5 +37,13 @@
   },
   "dependencies": {
     "core-js": "^3.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nugmanov87/ajs-homeworks-syntactic-constructions-1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nugmanov87/ajs-homeworks-syntactic-constructions-1/issues"
+  },
+  "homepage": "https://github.com/nugmanov87/ajs-homeworks-syntactic-constructions-1#readme"
 }
