@@ -1,7 +1,10 @@
-// TODO: write your code here
-export default function converter(count) {
-  if (!Number.isInteger(Number(count))) {
-    throw new Error(`${count} не является числом`);
+const converter = (str) => {
+  try {
+    if (/^[1-9]\d*$/.test(str) && str > 0) return Number(str);
+    throw new Error('Некорректный ввод');
+  } catch (e) {
+    return e;
   }
-  return Number(count);
-}
+};
+
+export default converter;
